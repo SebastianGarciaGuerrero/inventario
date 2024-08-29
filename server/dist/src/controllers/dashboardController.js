@@ -56,7 +56,7 @@ const getDashboardMetrics = (req, res) => __awaiter(void 0, void 0, void 0, func
     catch (error) {
         res
             .status(500)
-            .json({ message: "Error al obtener las metricas del dashboard" });
+            .json({ message: "Error al obtener las métricas del dashboard" });
     }
 });
 exports.getDashboardMetrics = getDashboardMetrics;

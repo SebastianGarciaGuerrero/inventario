@@ -57,6 +57,6 @@ export const getDashboardMetrics = async (
   } catch (error) {
     res
       .status(500)
-      .json({ message: "Error al obtener las metricas del dashboard" });
+      .json({ message: "Error al obtener las métricas del dashboard" });
   }
 };
