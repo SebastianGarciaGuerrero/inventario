@@ -12,7 +12,7 @@ export interface SalesSummary {
   salesSummaryId: string;
   totalValue: number;
   changePercentage?: number;
-  datte: string;
+  date: string;
 }
 
 export interface PurchaseSummary {
