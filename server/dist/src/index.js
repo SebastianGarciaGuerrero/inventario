@@ -23,8 +23,8 @@ app.use(body_parser_1.default.json());
 app.use(body_parser_1.default.urlencoded({ extended: true }));
 app.use((0, cors_1.default)());
 /* ROUTES */
-app.use("/dashboard", dashboardRoutes_1.default);
-app.use("/products", productRoutes_1.default);
+app.use("/dashboard", dashboardRoutes_1.default); // http://localhost:8000/dashboard
+app.use("/products", productRoutes_1.default); // http://localhost:8000/products
 /* SERVER */
 const port = process.env.PORT || 3001;
 app.listen(port, () => {
